@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="app_bar_height">240dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="profilePhotoMarginBottom">10dp</dimen>
+    <dimen name="emailProfileSize">10sp</dimen>
+    <dimen name="profilePhotoMarginTop">16dp</dimen>
+    <dimen name="profilePhotoSize">100dp</dimen>
+    <dimen name="tabsHeight">48dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:padding="8dp"
+            android:text="Has hecho 34 pushUps"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="12sp" />
+
+        <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+            android:id="@+id/rvList"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
