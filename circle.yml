@@ -4,7 +4,7 @@
 
 general:
     artifacts:
-        - /home/ubuntu/TrainigBattle/app/build/outputs/apk/
+        - /home/ubuntu/TrainingBattle/app/build/outputs/apk/
 
 machine:
     java:
@@ -15,7 +15,7 @@ machine:
 dependencies:
   pre:
     - echo y | android update sdk --no-ui --all --filter "platform-tools, tools"
-    - echo y | android update sdk --no-ui --all --filter "android-24, build-tools-25.0.2"
+    - echo y | android update sdk --no-ui --all --filter "android-25, build-tools-25.0.2"
     - echo y | android update sdk --no-ui --all --filter "extra-google-google_play_services"
     - echo y | android update sdk --no-ui --all --filter "extra-android-m2repository"
     - echo y | android update sdk --no-ui --all --filter "extra-android-support"
